@@ -1,9 +1,24 @@
 ## Hello there, i'm Thyago Raphael!
 
-I'm iOS Developer.
-
-<a href="https://www.instagram.com/traphael.dev/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
 <a href="https://www.linkedin.com/in/thyago-raphael-396b48215" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> 
+
+```swift
+struct Dev {
+  let name = "Thyago Raphael Almeida dos Santos"
+  let age = Int.infinity
+  let role = "iOS Developer"
+  let location = "Brazil"
+  let languages = ["pt_BR"]
+  let skills = ["Swift", "UIKit (ViewCode)", "SwiftUI", "MVVM 🤡"]
+  
+  func sayHi() {
+    print("Hi Dev!")
+  }
+}
+
+let me = Dev()
+me.sayHi()
+```
 
 ## My skills include
 <div style="display: inline_block">
